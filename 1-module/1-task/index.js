@@ -3,6 +3,10 @@
  * @param {number} n
  * @returns {number}
  */
-function factorial(n) {
 
-}
+function factorial(n) {
+    let res = 1;
+    while (n) res *=n--
+    return res;
+    }
+    console.log(factorial(5));
